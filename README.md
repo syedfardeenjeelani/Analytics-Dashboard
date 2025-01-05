@@ -87,7 +87,7 @@ This project showcases a **Comprehensive Analytics Dashboard** built with modern
 ## **How to Run**
 1. Clone the repository and navigate to the project directory:
    ```bash
-   git clone https://github.com/syedfardeenjeelani/pagagi
+   git clone https://github.com/syedfardeenjeelani/pagagi.git
    cd pagagi
    ```
 
