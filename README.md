@@ -1,6 +1,5 @@
 # Comprehensive Analytics Dashboard
-
-This project showcases a **Comprehensive Analytics Dashboard** built with modern front-end technologies, incorporating advanced features, interactive animations, and robust state management. It demonstrates high-performance, accessible, and responsive design principles 
+This project showcases a **Comprehensive Analytics Dashboard** built with modern front-end technologies, incorporating advanced features, interactive animations, and robust state management. It demonstrates high-performance, accessible, and responsive design principles.
 
 ---
 
