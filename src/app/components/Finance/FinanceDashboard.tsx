@@ -28,11 +28,13 @@ const FinanceDashboard = () => {
   const { data: quote, isLoading: isQuoteLoading } : any =
     useGetStockQuoteQuery(selectedSymbol);
 
-  const { data: timeSeriesData } = useGetTimeSeriesDataQuery({
-    symbol: selectedSymbol,
-    interval: "daily",
-    outputsize: timeRange === "1Y" ? "full" : "compact",
-  });
+    if (isQuoteLoading) return <h1>...Loading</h1>
+
+      const { data: timeSeriesData } = useGetTimeSeriesDataQuery({
+        symbol: selectedSymbol,
+        interval: "daily",
+        outputsize: timeRange === "1Y" ? "full" : "compact",
+      });
 
   const { data: intradayData } = useGetIntradayDataQuery(
     {
